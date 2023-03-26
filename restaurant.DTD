@@ -1,0 +1,16 @@
+<!ELEMENT restaurant (name, address, contact, menu)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT address (street, city, state, zipcode)>
+        <!ELEMENT street (#PCDATA)>
+        <!ELEMENT city (#PCDATA)>
+        <!ELEMENT state (#PCDATA)>
+        <!ELEMENT zipcode (#PCDATA)>
+        <!ELEMENT contact (phone, email)>
+        <!ELEMENT phone (#PCDATA)>
+        <!ELEMENT email (#PCDATA)>
+        <!ELEMENT menu (item*)>
+        <!ELEMENT item (id, name, description, price, category)>
+        <!ELEMENT id (#PCDATA)>
+        <!ELEMENT description (#PCDATA)>
+        <!ELEMENT price (#PCDATA)>
+        <!ELEMENT category (#PCDATA)>

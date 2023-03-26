@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE restaurant SYSTEM "F:\assignment3\src\restaurant.DTD">
+<restaurant
+
+>
+<name>worldwide resturant</name>
+    <address>
+         <street>123 Tasty Street</street>
+           <city>Foodtown</city>
+           <state>Yumstate</state>
+           <zipcode>12345</zipcode>
+    </address>
+          <contact>
+              <phone>+1 (123) 456-7890</phone>
+              <email>info@deliciousbites.com</email>
+          </contact>
+    <menu>
+        <item>
+            <id>1</id>
+            <name>Grilled Cheese Sandwich</name>
+            <description>A classic sandwich with melted cheese between grilled bread.</description>
+            <price>5.99</price>
+            <category>Main Course</category>
+        </item>
+
+        <item>
+            <id>2</id>
+            <name>Caesar Salad</name>
+            <description>Fresh romaine lettuce with Caesar dressing, croutons, and Parmesan cheese.</description>
+            <price>6.99</price>
+            <category>Salad</category>
+        </item>
+        <item>
+            <id>3</id>
+            <name>Tomato Soup</name>
+            <description>Delicious and creamy tomato soup, served with a side of bread.</description>
+            <price>4.99</price>
+            <category>Starter</category>
+        </item>
+        <item>
+            <id>4</id>
+            <name>Chocolate Cake</name>
+            <description>Rich and moist chocolate cake with a creamy chocolate frosting.</description>
+            <price>7.99</price>
+            <category>Dessert</category>
+        </item>
+    </menu>
+</restaurant>
